@@ -1,0 +1,17 @@
+* {
+  border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+  width: 12em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
