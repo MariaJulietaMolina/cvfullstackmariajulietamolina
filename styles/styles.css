@@ -4,6 +4,8 @@
   color: #450920;
 }
 
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -13,11 +15,11 @@ nav {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 h2{
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 img {
@@ -34,7 +36,7 @@ main {
 .desarrollo {
   padding: 1.5em;
   background-color: #f9dbbd;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .desarrollo p{
@@ -43,25 +45,25 @@ main {
 
 aside {
   background-color: #da627d;
-  padding: 1.9em;
+  padding: 1.5em;
 }
 
 footer {
   background-color: #a53860;
   display: flex;
   justify-content: right;
-  padding: 1em;
+  padding: 0.8em;
 }
 
 h3 {
   text-align: center;
-  font-size: 120%;
+  
 }
 
 aside .perfil {
   display: block;
   margin: 0 auto;
-  max-width: 12em;
+  max-width: 8em;
   border-radius: 10%;
   box-shadow: 3px 3px 3px #450920;
   position: relative;
@@ -82,6 +84,7 @@ hr {
 li{
   list-style: none;
   margin-block: 0.5em;
+
 }
 
 ul.titulo li a{
@@ -100,6 +103,30 @@ aside a {
 
 aside a:hover {
    color: white;
+}
+
+aside div li{
+  font-size: 0.8em;
+  margin-left: 0;
+  line-height: 1;
+  
+}
+
+/*para que sea A4*/
+
+body {
+  display: flex;
+  justify-content: center;
+  background:#f4f3f3;
+}
+
+.pagina {
+  width: 794px;   
+  height: 1123px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 1em; 
+  box-sizing: border-box;
 }
 
 /*Media Querys*/
