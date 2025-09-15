@@ -113,7 +113,7 @@ aside div li{
 }
 /*Media Querys*/
 
-/*para que sea A4*/
+/*para que sea A4 en pantallas medianas a grandes*/
 @media screen and (min-width: 1024px) {
 
 body {
@@ -146,9 +146,15 @@ nav {
   align-items: center;
   text-align: center;
 }
-
-.titulo{
-  display: flex;
-  
+aside div li{
+  font-size: 1.3em;
 }
+
+h1{
+  font-size: 2.2em;
+}
+h2{
+  font-size: 1.8em;
+}
+
 }
